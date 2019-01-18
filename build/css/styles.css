@@ -454,10 +454,18 @@ button {
   word-wrap: break-word;
   padding: 5px 5px;
   margin-top: 150px;
+  outline: none;
 }
 
 button:active {
   background-color: red;
+}
+
+.foto {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
